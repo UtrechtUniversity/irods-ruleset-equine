@@ -5,7 +5,7 @@
 # \license GPLv3, see LICENSE
 #
 
-pep_resource_write_post(*out) {
+pep_resource_modified_post(*out) {
    *sourceResource = $pluginInstanceName;
    if (*sourceResource == 'irodsResc') {
       uuReplicateAsynchronously($KVPairs.logical_path, *sourceResource, 'irodsRescRepl');
