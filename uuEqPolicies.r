@@ -7,7 +7,7 @@
 
 pep_resource_modified_post(*out) {
    *sourceResource = $pluginInstanceName;
-   if (*sourceResource == 'irodsResc') {
+   if (*sourceResource == 'irodsResc2') {
       uuReplicateAsynchronously($KVPairs.logical_path, *sourceResource, 'irodsRescRepl');
    }
 }
