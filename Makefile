@@ -25,7 +25,7 @@ RULE_FILES ?= $(shell find . -type f -iname '*.r')
 
 # Output files.
 
-RULESET_NAME ?= rules-equine.re
+RULESET_NAME ?= rules-dgk.re
 RULESET_FILE := $(RULESET_NAME)
 
 INSTALL_DIR  ?= ..
