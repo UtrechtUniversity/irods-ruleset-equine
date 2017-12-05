@@ -1,9 +1,9 @@
-irods-ruleset-equine
+irods-ruleset-dgk
 ==========
 
 NAME
 ----
-ruleset-equine - all rules and policies to be configured with this specific Yoda iRODS environment
+ruleset-dgk - all rules and policies to be configured with this specific Yoda iRODS environment
 
 DESCRIPTION
 -----------
